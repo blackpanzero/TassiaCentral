@@ -252,6 +252,7 @@ body{
 	 background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+
 	
 }
 
@@ -270,7 +271,7 @@ body{
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 60px;
-	height: 420px;
+	
 	color: white;
     
 
@@ -329,7 +330,7 @@ h5{
 	font-family: sans-serif;
 	
 	line-height: 25px;
-	height: 250px;
+	
 
 	font-size: 15px ;
 
@@ -347,7 +348,7 @@ h5{
 	font-family: sans-serif;
 	
 	line-height: 25px;
-	height: 250px;
+	
 	font-size: 15px ;
 }
 .location{
@@ -364,7 +365,7 @@ h5{
 	font-family: sans-serif;
 	
 	line-height: 25px;
-	height: 250px;
+	
 	font-size: 15px ;
 
 	}
@@ -381,7 +382,7 @@ h5{
 	font-family: sans-serif;
 	
 	line-height: 25px;
-	height: 250px;
+	
 	font-size: 15px ;
 
 }
@@ -510,29 +511,104 @@ h5{
 }
 
 
+/*
+		 
+		<header class="videos">
+			
+			<h2>Latest Sermons & Presentations</h2>
+			
+			
+		<div class="row">
+			
+			<div class="video1">
+				
+
+				<h4>
+				
+						
+				   
+				</h4>
+				<iframe width="420" height="315"
+				src="https://www.youtube.com/embed/SKa3S4F1BvQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" >
+				</iframe>
+				
+				</div>
+				
+		   	<div class="video2">
+		   		
+				<h4>
+					
+				    
+				  
+				</h4>
+				<iframe width="420" height="315"
+				src="https://www.youtube.com/embed/F2deoPhg1sw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" >
+				</iframe>
+
+				
+				</div>
+			
+			
+			<div class="video3">
+				<h4>
+					
+					
+				</h4>
+					
+
+				<iframe width="420" height="315"
+				src="https://www.youtube.com/embed/m_obH3ZrvUo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+				</iframe>
+			</div> 
+			
+
+			<div class="video4">
+				<h4>
+				
+					 
+					
+				</h4>
+					
+
+				<iframe width="420" height="315"
+				src="https://www.youtube.com/embed/cdAH6ZAlinU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+				</iframe>
+			</div> 
+
+			
 
 
+
+
+		</div>
 .video1{
 	
 	
 	float: left;
 	margin: auto;
-	width: 40%;
+	
 	box-sizing: border-box;
-	border-left: white 225px solid;
+	width: 50%;
+	text-align: right;
+	
+
+	
 
 	
 	
 
 }
+
 .video2{
 	
 	
 	float: left;
 	margin: auto;
-	width: 40%;
+	
 	box-sizing: border-box;
-	border-left: white 125px solid;
+	width: 50%;
+	
+
 
 	
 	
@@ -543,9 +619,10 @@ h5{
 	
 	float: left;
 	margin: auto;
-	width: 40%;
+	width: 50%;
 	box-sizing: border-box;
-	border-left: white 225px solid;
+	text-align: right;
+	
 
 	
 	
@@ -556,13 +633,14 @@ h5{
 	
 		float: left;
 	margin: auto;
-	width: 40%;
+	width: 50%;
 	box-sizing: border-box;
-	border-left: white 125px solid;
+	
 	
 	
 
 }
+*/
 
 
 
@@ -587,10 +665,8 @@ h5{
 }
 
 .videos{
-	margin-top: 10px;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	background-size: 100%;
+	
+
 }
 .videos h2{
 	text-align: center;
@@ -598,6 +674,12 @@ h5{
 	font-weight:20px;
 	margin: auto;
 	width: 80%;
+}
+.videos h3{
+	background-color: inherit;
+	clear: all;
+	float: none;
+
 }
 .aboutheading{
 	background-image: url("photo-8.png");
@@ -653,10 +735,25 @@ h5{
 	font-size: 22px;
 	line-height: 30px;
 	background-image: url("photo-4.jpg");
+	color: transparent;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 
 	margin: auto;
-	height: 467px;
 }
+	.identity2 p{
+		width: 70%;
+	}
+	.identity2 h2{
+		background-color: transparent;
+		color: transparent;
+	}
+	.identity2 a{
+		color: transparent;
+	}
+
+
+
 .fundermental{
 	
 	font-size: 22px;
@@ -704,17 +801,22 @@ h5{
 	font-size: 22px;
 	line-height: 30px;
 	background-image: url("photo-13.jpg");
+	color: transparent;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 
 	margin: auto;
-	height: 467px;
-	
-
-	
-
-
-	
-
 }
+	.History2 p{
+		width: 70%;
+	}
+	.History2 h2{
+		background-color: transparent;
+		color: transparent;
+	}
+	.History2 a{
+		color: transparent;
+	}
 .mission1{
 	
 	float: right;
@@ -739,18 +841,29 @@ h5{
 	font-size: 22px;
 	line-height: 30px;
 	background-image: url("photo-11.jpg");
-	size: 100% 100%;
+	color: transparent;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 
 	margin: auto;
-	height: 467px;
-	
-
-	
-
-
-	
-
 }
+	.mission2 p{
+		width: 70%;
+	}
+	.mission2 h2{
+		background-color: transparent;
+		color: transparent;
+	}
+	.mission2 a{
+		color: transparent;
+	}
+
+	
+
+
+	
+
+
 
 
 /* Style all font awesome icons */
@@ -804,7 +917,7 @@ h5{
 }
 
 
-@media(max-width: 600px){
+@media(max-width: 800px){
 	
 
 			    .block{
@@ -847,6 +960,7 @@ h5{
 			    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
 			  position: relative;
 			  text-align: center!important;
+			  background-color:rgba(248, 241, 241, 0.9);
 			  }
 			  #navbar a {
 			    float: none;
@@ -931,6 +1045,7 @@ h5{
 						
 						width: 100%;
 						border:none;
+						text-align: center;
 						
 						
 	
@@ -984,15 +1099,34 @@ h5{
 							width: 100%!important;
 
 						}
+						.History2,.identity2,.mission2{display: none;
+							
 	
-	
-
-	
-
+							}	
+						.resp-iframe1, .resp-iframe2, .resp-iframe3, .resp-iframe4{
+							float: none!important;
 						
-	
-	
-		}		
+						width: 100% !important;
+						border:none;
+						text-align: center;
+						padding: 0%!important;
+						left: 0px!important;
+
+						}	
+						.resp-container{
+							float: none !important;
+						
+						width: 80%!important;
+						border:none;
+						text-align: center; 
+						padding: 0%;
+						padding-top: 50.25%!important;
+						}
+		
+
+
+
+		}
 
 
 
@@ -1511,6 +1645,62 @@ h5{
 
 }
 
+
+
+
+
+.resp-iframe1 {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+    width: 60%;
+    height: 90%;
+    border: 0;
+   
+    text-align: center;
+
+}
+.resp-iframe2 {
+    position: absolute;
+    top: 5%;
+    left:  35%;
+    width: 60%;
+    height: 90%;
+    border: 0;
+   
+    
+
+}
+.resp-iframe3 {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    width: 60%;
+    height: 90%;
+    border: 0;
+   
+    text-align: center;
+
+}
+.resp-iframe4 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    width: 60%;
+    height: 90%;
+    border: 0;
+   
+    text-align: center;
+
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 20.25%;
+    width: 50%;
+    float: right;
+    margin: auto;
+}
 
 
 
