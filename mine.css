@@ -16,6 +16,11 @@
     background-size: 100% 100%;
 
 
+
+
+
+
+
 		}
 
 /* Create a sticky/fixed navbar */
@@ -1122,8 +1127,23 @@ h5{
 						padding: 0%;
 						padding-top: 55.25%!important;
 						}
+						.dropdown-content {
 		
+						
+						background-color:rgba(247, 236, 236, 1.0) !important;
+							
+  							}
+  						.social{
 
+							position: relative; /* Set the navbar to fixed position */
+		  						bottom: 0!important; /* Position the navbar at the bottom of the page */
+		 						 width: 100%; /* Full width */
+		 						}
+		 				.Copyright p {
+		 					 
+		 					font-size: 15px!important;
+		 					bottom: inherit!important;
+		 				}
 
 
 		}
