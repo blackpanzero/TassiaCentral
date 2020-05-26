@@ -1051,14 +1051,18 @@ h5{
 			  	
 			  }
 			   #navbar {
-			    padding-top: : 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+			    padding : 30px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
 			  position: relative;
 			 
 			  background-color:rgba(248, 241, 241, 0.9);
+			  background-image: url("output-onlinepngtools.png")!important;
+			    background-repeat: no-repeat;
+			    background-position: center;
 			  }
 			  #navbar a {
 			    float: left;
 			    display: block;
+
 			   
 			  }
 			  #navbar #logo {
