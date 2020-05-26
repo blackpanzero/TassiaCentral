@@ -88,6 +88,95 @@ a:hover{
 p a:hover{
 	color: blue;
 }
+.active {
+	background-color: dodgerblue;
+	color: black;
+  }
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+	background:none !important;
+	border: none;
+	cursor: pointer;
+
+
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+	font-weight: normal;
+	font-family: inherit;
+	 outline: none;
+	 margin: 0;
+	
+  }
+
+  
+ 
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	overflow: visible !important;
+	
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	
+	display: none;
+	position: absolute;
+	background-color:rgba(247, 236, 236, 0.5);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	
+	clear: both;
+	right: 0;
+	overflow: visible !important;
+	
+
+
+	
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	
+	
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	clear: both;
+
+	overflow: visible !important;
+	
+  }
+
+
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+	overflow: visible !important;
+	
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+	background-color: #ddd !important;
+	color: black;
+	}
 
 
 
@@ -169,7 +258,7 @@ h1{
     background-attachment: fixed;
     background-size: 100% 100%;
 
-	padding: 0.2%;
+	padding: 0.1%;
 
 
 	
@@ -941,6 +1030,7 @@ h5{
 			}
 			   .First-paragraph{
 			   	width: 100%;
+			   	margin-top: 10px;
 			   }
 			   .prayer{
 			   	width: 100%;
@@ -964,13 +1054,13 @@ h5{
 			   #navbar {
 			    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
 			  position: relative;
-			  text-align: inherit;
+			  text-align: left!important;
 			  background-color:rgba(248, 241, 241, 0.9);
 			  }
 			  #navbar a {
 			    float: none;
 			    display: block;
-			    text-align: center;
+			   
 			  }
 			  #navbar-right {
 			    float: none;
@@ -1144,9 +1234,10 @@ h5{
 		 					font-size: 15px!important;
 		 					bottom: inherit!important;
 		 				}
+		 				
+						
 
-
-		}
+						}
 
 
 
@@ -1275,95 +1366,8 @@ h5{
 
 }
 
-.active {
-	background-color: dodgerblue;
-	color: black;
-  }
-
-
-
-  /* Dropdown Button */
-.dropbtn {
-	background:none !important;
-	border: none;
-	cursor: pointer;
-
-
-	color: black;
-	text-align: center;
-	padding: 12px;
-	text-decoration: none;
-	font-size: 18px;
-	line-height: 25px;
-	border-radius: 4px;
-	font-weight: normal;
-	font-family: inherit;
-	 outline: none;
-	 margin: 0;
-	
-  }
 
   
- 
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-	position: relative;
-	display: inline-block;
-	overflow: visible !important;
-	
-
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-	
-	display: none;
-	position: absolute;
-	background-color:rgba(247, 236, 236, 0.5);
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-	
-	clear: both;
-	right: 0;
-	overflow: visible !important;
-	
-
-
-	
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-	
-	
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	clear: both;
-
-	overflow: visible !important;
-	
-  }
-
-
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-	display: block;
-	overflow: visible !important;
-	
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-	background-color: #ddd !important;
-	color: black;
-  }
 .my-container {
     position: relative;
     overflow: hidden;
@@ -1762,16 +1766,7 @@ h5{
     width: 100%!important;
     text-align: left!important;
   }
-  .dropdown-content {
-	
-
-	left: 0;
-	
-	
-
-
-	
-  }
+ 
 }
 
 
