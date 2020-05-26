@@ -1129,7 +1129,7 @@ h5{
 					
 
 				}
-				.mission1, .mission p{
+				.mission1, .mission1 p{
 					
 					float: none;
 					width: 100%;
@@ -1272,6 +1272,65 @@ h5{
 							overflow: auto!important;
 
 							}
+							.depts br, .talk br,.aboutheading br,.shareprayer br{
+								display: none;
+
+							}
+							.prayerpar{
+							
+							width: 90%;
+							margin: auto;
+							
+    
+
+							}
+							.feedback{
+							width: 100%;
+							
+							}
+							.prayerheading{
+								
+								font-size: 40px;
+								font-weight: bold;
+								margin-left: 0px !important;
+							}
+							.prayerpar{
+								text-align: center;
+								width: 90%;
+								font-size: 37px;
+								font-weight:50px;
+							    margin-top: 60px;
+							    margin: auto;
+							    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+							    line-height: 40px;
+								
+								color: white;
+							    
+
+							}
+
+							.prayer{
+
+								
+								width: 100%!important;
+								
+								
+							    
+							    
+							    
+							   
+								font-size: 25px;
+								font-weight:20px;
+								
+
+
+
+
+
+							}
+
+	
+
 
 		 				
 						
