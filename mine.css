@@ -11,9 +11,7 @@
 	margin-bottom: 30px;
 	
 	
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  
 
 
 
@@ -40,7 +38,7 @@
 	float: left;
 	color: black;
 	text-align: center;
-	padding: 12px;
+	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 25px;
@@ -60,6 +58,7 @@
   #navbar a:hover {
 	background-color: #ddd;
 	color: black;
+	display: block;
   }
   
   /* Style the active/current link */
@@ -1052,14 +1051,18 @@ h5{
 			  	
 			  }
 			   #navbar {
-			    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+			    padding-top: : 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
 			  position: relative;
-			  text-align: left!important;
+			 
 			  background-color:rgba(248, 241, 241, 0.9);
 			  }
 			  #navbar a {
-			    float: none;
+			    float: left;
 			    display: block;
+			   
+			  }
+			  #navbar #logo {
+			   display: none;
 			   
 			  }
 			  #navbar-right {
@@ -1234,6 +1237,7 @@ h5{
 		 					font-size: 15px!important;
 		 					bottom: inherit!important;
 		 				}
+
 		 				
 						
 
@@ -1751,6 +1755,7 @@ h5{
   .topnav.responsive {position: relative!important;}
   .topnav.responsive a.icon {
     position: absolute!important;
+
     right: 0!important;
     top: 0!important;
   }
@@ -1758,6 +1763,7 @@ h5{
     float: none!important;
     display: block!important;
     text-align: left!important;
+
   }
   .topnav.responsive .dropdown {float: none!important;}
   .topnav.responsive .dropdown-content {position: relative!important;}
