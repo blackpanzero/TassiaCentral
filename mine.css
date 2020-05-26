@@ -1058,6 +1058,7 @@ h5{
 			  background-image: url("output-onlinepngtools.png")!important;
 			    background-repeat: no-repeat;
 			    background-position: center;
+
 			  }
 			  #navbar a {
 			    float: left;
@@ -1241,6 +1242,31 @@ h5{
 		 					font-size: 15px!important;
 		 					bottom: inherit!important;
 		 				}
+		 			
+
+						.mission h3{
+							
+							
+							font-size: 50px;
+							
+
+
+						}
+						.mission p{
+							
+							font-size: 40px!important;
+							
+							line-height: 40px!important;
+		
+							
+							
+							}
+							.mission a{
+							
+							font-size: 30px!important;
+							
+							
+							}
 
 		 				
 						
@@ -1767,6 +1793,7 @@ h5{
     float: none!important;
     display: block!important;
     text-align: left!important;
+
 
   }
   .topnav.responsive .dropdown {float: none!important;}
